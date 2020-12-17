@@ -45,7 +45,6 @@ class _StoryPageState extends State<StoryPage> {
                 flex: 12,
                 child: Center(
                   child: Text(
-                    //TODO: Step 10 - use the storyBrain to get the first story title and display it in this Text Widget.
                     storyBrain.getStory(),
                     style: TextStyle(
                       fontSize: 25.0,
@@ -62,8 +61,7 @@ class _StoryPageState extends State<StoryPage> {
                   },
                   color: Colors.red,
                   child: Text(
-                    //TODO: Step 13 - Use the storyBrain to get the text for choice 1.
-                    'Choice 1',
+                    storyBrain.getchoice1(),
                     style: TextStyle(
                       fontSize: 20.0,
                     ),
