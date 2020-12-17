@@ -35,8 +35,6 @@ List<Story> _storyData = [
 ];
 
 //TODO: Step 23 - Use the storyNumber property inside getStory(), getChoice1() and getChoice2() so that it gets the updated story and choices rather than always just the first (0th) one.
-
-//TODO: Step 8 - Create a method called getStory() that returns the first storyTitle from _storyData.
 String getStory() {
   return _storyData[0].storyTitle;
 }

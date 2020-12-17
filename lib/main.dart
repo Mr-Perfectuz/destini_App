@@ -1,3 +1,4 @@
+import 'package:destini_challenge_starting/story_brain.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +16,7 @@ class Destini extends StatelessWidget {
 }
 
 //TODO: Step 9 - Create a new storyBrain object from the StoryBrain class.
+StoryBrain storyBrain = new StoryBrain();
 
 class StoryPage extends StatefulWidget {
   _StoryPageState createState() => _StoryPageState();
