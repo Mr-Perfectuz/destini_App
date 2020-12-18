@@ -1,5 +1,3 @@
-import 'package:flutter/cupertino.dart';
-
 class Story {
   String storyTitle;
   String choice1;
