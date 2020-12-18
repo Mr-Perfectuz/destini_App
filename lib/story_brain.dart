@@ -57,19 +57,23 @@ class StoryBrain {
         break;
 
       case 1:
-        if(choiceNumber == 1){
+        if (choiceNumber == 1) {
           storyNumber = 2;
-        }
-        else{
+        } else {
           storyNumber = 3;
         }
         break;
 
       case 2:
-        if(choiceNumber == 1){
-          storyNumber =  5;
+        if (choiceNumber == 1) {
+          storyNumber = 5;
+        } else {
+          storyNumber = 4;
         }
-        else
+        break;
+
+      default:
+        restart()
     }
   }
 }
