@@ -49,7 +49,27 @@ class StoryBrain {
   void nextStory(int choiceNumber) {
     switch (storyNumber) {
       case 0:
-        if()
+        if (choiceNumber == 1) {
+          storyNumber = 2;
+        } else {
+          storyNumber = 1;
+        }
+        break;
+
+      case 1:
+        if(choiceNumber == 1){
+          storyNumber = 2;
+        }
+        else{
+          storyNumber = 3;
+        }
+        break;
+
+      case 2:
+        if(choiceNumber == 1){
+          storyNumber =  5;
+        }
+        else
     }
   }
 }
