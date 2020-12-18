@@ -58,10 +58,12 @@ class _StoryPageState extends State<StoryPage> {
                     storyBrain.nextStory(1);
                   },
                   color: Colors.red,
-                  child: Text(
-                    storyBrain.getchoice1(),
-                    style: TextStyle(
-                      fontSize: 20.0,
+                  child: Center(
+                    child: Text(
+                      storyBrain.getchoice1(),
+                      style: TextStyle(
+                        fontSize: 20.0,
+                      ),
                     ),
                   ),
                 ),
@@ -79,10 +81,12 @@ class _StoryPageState extends State<StoryPage> {
                     storyBrain.nextStory(2);
                   },
                   color: Colors.blue,
-                  child: Text(
-                    storyBrain.getchoice2(),
-                    style: TextStyle(
-                      fontSize: 20.0,
+                  child: Center(
+                    child: Text(
+                      storyBrain.getchoice2(),
+                      style: TextStyle(
+                        fontSize: 20.0,
+                      ),
                     ),
                   ),
                 ),
